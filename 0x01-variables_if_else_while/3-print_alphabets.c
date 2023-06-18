@@ -2,16 +2,15 @@
 /**
  * main - prints the alphabet in lower case and then in uppercase
  *
- * Return: 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-int ch;
-for (ch = 'a'; ch <= 'z'; ch++)
-putchar (ch);
-for (ch = 'A'; ch <= 'Z'; ch++)
-putchar(ch);
+int i;
+for (i = 'a'; i <= 'z'; i++)
+putchar (i);
+for (i = 'A'; i <= 'Z'; i++)
+putchar(i);
 putchar('\n');
 return (0);
 }
