@@ -17,4 +17,5 @@ _putchar(j);
 }
 }
 _putchar('\n');
+return (0);
 }
